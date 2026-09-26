@@ -9,7 +9,7 @@ cask "pasteclip" do
 
   deprecate! date: "2026-08-20", because: "it was renamed to clipbara"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Clipbara.app"
 
